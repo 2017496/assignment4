@@ -34,7 +34,7 @@ jobs:
       with:
         token: ${{45a18933-014d-4d66-95b1-8a8410b0a377}}
     - name: Build
-      run: nom run build
+      run: npm run build
       
     - name: Deploy
       run: |
